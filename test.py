@@ -74,3 +74,4 @@ with open("video.ts", 'wb') as f:
     for segment_uri in m3u8_segment_uris:
         r = sess.get(segment_uri)
         f.write(r.content)
+        

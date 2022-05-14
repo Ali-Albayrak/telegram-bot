@@ -12,8 +12,6 @@ print("hello")
 
 
 
-
-
 # def threaded(f, daemon=False):
 #     import queue
 
